@@ -1,4 +1,4 @@
-SELECT ?item ?itemLabel ?char ?romanji ?hex
+SELECT ?item ?itemLabel ?char ?romanji
 WHERE
 {
     # part　of kana
@@ -19,8 +19,8 @@ WHERE
        FILTER(SUBSTR(?hex, 0, 3)  = "30").
     }
 
-   ?item wdt:P2125 ?romanji.
+    ?item wdt:P2125 ?romanji.
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
-LIMIT 1000
+ORDER BY ASC(?char)

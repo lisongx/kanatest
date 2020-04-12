@@ -1,9 +1,0 @@
-SELECT ?item ?itemLabel ?romanji
-WHERE
-{
-    ?item wdt:P31 wd:Q41798684.
-    OPTIONAL { ?item wdt:P2125 ?romanji. }
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
-
-LIMIT 1000

@@ -1,0 +1,26 @@
+SELECT ?item ?itemLabel ?char ?romanji ?hex
+WHERE
+{
+    # part　of kana
+    ?item wdt:P361 wd:Q240357.
+
+    # get both unicode for hiragana and katakana
+    ?item p:P487 ?unicode_statement.
+    ?unicode_statement ps:P487 ?char.
+
+    {
+      # either is hiragana
+      ?unicode_statement pq:P518  wd:Q48332
+    } UNION {
+      # or katakana
+      #  (but filterout unicode in range beyound 43200, char like ㋨)
+      ?unicode_statement pq:P518 wd:Q82946.
+      ?unicode_statement pq:P4213 ?hex.
+       FILTER(SUBSTR(?hex, 0, 3)  = "30").
+    }
+
+   ?item wdt:P2125 ?romanji.
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+LIMIT 1000

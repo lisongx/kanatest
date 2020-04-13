@@ -1,0 +1,1472 @@
+[
+  {
+    "kana": "Q40454",
+    "char": "あ",
+    "smallChar": "ぁ",
+    "typeLabel": "hiragana",
+    "romanji": "a"
+  },
+  {
+    "kana": "Q40462",
+    "char": "い",
+    "smallChar": "ぃ",
+    "typeLabel": "hiragana",
+    "romanji": "i"
+  },
+  {
+    "kana": "Q40472",
+    "char": "う",
+    "smallChar": "ぅ",
+    "typeLabel": "hiragana",
+    "romanji": "u"
+  },
+  {
+    "kana": "Q40481",
+    "char": "え",
+    "smallChar": "ぇ",
+    "typeLabel": "hiragana",
+    "romanji": "e"
+  },
+  {
+    "kana": "Q40488",
+    "char": "お",
+    "smallChar": "ぉ",
+    "typeLabel": "hiragana",
+    "romanji": "o"
+  },
+  {
+    "kana": "Q40499",
+    "char": "か",
+    "smallChar": "ゕ",
+    "typeLabel": "hiragana",
+    "romanji": "ka"
+  },
+  {
+    "kana": "Q6151513",
+    "char": "が",
+    "typeLabel": "hiragana",
+    "romanji": "ga"
+  },
+  {
+    "kana": "Q40548",
+    "char": "き",
+    "typeLabel": "hiragana",
+    "romanji": "ki"
+  },
+  {
+    "kana": "Q10640541",
+    "char": "ぎ",
+    "typeLabel": "hiragana",
+    "romanji": "gi"
+  },
+  {
+    "kana": "Q40554",
+    "char": "く",
+    "typeLabel": "hiragana",
+    "romanji": "ku"
+  },
+  {
+    "kana": "Q10640546",
+    "char": "ぐ",
+    "typeLabel": "hiragana",
+    "romanji": "gu"
+  },
+  {
+    "kana": "Q40560",
+    "char": "け",
+    "smallChar": "ゖ",
+    "typeLabel": "hiragana",
+    "romanji": "ke"
+  },
+  {
+    "kana": "Q10640564",
+    "char": "げ",
+    "typeLabel": "hiragana",
+    "romanji": "ge"
+  },
+  {
+    "kana": "Q40566",
+    "char": "こ",
+    "typeLabel": "hiragana",
+    "romanji": "ko"
+  },
+  {
+    "kana": "Q10640565",
+    "char": "ご",
+    "typeLabel": "hiragana",
+    "romanji": "go"
+  },
+  {
+    "kana": "Q40575",
+    "char": "さ",
+    "typeLabel": "hiragana",
+    "romanji": "sa"
+  },
+  {
+    "kana": "Q10640568",
+    "char": "ざ",
+    "typeLabel": "hiragana",
+    "romanji": "za"
+  },
+  {
+    "kana": "Q40582",
+    "char": "し",
+    "typeLabel": "hiragana",
+    "romanji": "shi"
+  },
+  {
+    "kana": "Q11269342",
+    "char": "じ",
+    "typeLabel": "hiragana",
+    "romanji": "ji"
+  },
+  {
+    "kana": "Q40587",
+    "char": "す",
+    "typeLabel": "hiragana",
+    "romanji": "su"
+  },
+  {
+    "kana": "Q11269946",
+    "char": "ず",
+    "typeLabel": "hiragana",
+    "romanji": "zu"
+  },
+  {
+    "kana": "Q40593",
+    "char": "せ",
+    "typeLabel": "hiragana",
+    "romanji": "se"
+  },
+  {
+    "kana": "Q11270227",
+    "char": "ぜ",
+    "typeLabel": "hiragana",
+    "romanji": "ze"
+  },
+  {
+    "kana": "Q40598",
+    "char": "そ",
+    "typeLabel": "hiragana",
+    "romanji": "so"
+  },
+  {
+    "kana": "Q11270698",
+    "char": "ぞ",
+    "typeLabel": "hiragana",
+    "romanji": "zo"
+  },
+  {
+    "kana": "Q40624",
+    "char": "た",
+    "typeLabel": "hiragana",
+    "romanji": "ta"
+  },
+  {
+    "kana": "Q11271493",
+    "char": "だ",
+    "typeLabel": "hiragana",
+    "romanji": "da"
+  },
+  {
+    "kana": "Q40636",
+    "char": "ち",
+    "typeLabel": "hiragana",
+    "romanji": "chi"
+  },
+  {
+    "kana": "Q11080311",
+    "char": "ぢ",
+    "typeLabel": "hiragana",
+    "romanji": "ji"
+  },
+  {
+    "kana": "Q40643",
+    "char": "つ",
+    "smallChar": "っ",
+    "typeLabel": "hiragana",
+    "romanji": "tsu"
+  },
+  {
+    "kana": "Q11089303",
+    "char": "づ",
+    "typeLabel": "hiragana",
+    "romanji": "zu"
+  },
+  {
+    "kana": "Q40648",
+    "char": "て",
+    "typeLabel": "hiragana",
+    "romanji": "te"
+  },
+  {
+    "kana": "Q6151530",
+    "char": "で",
+    "typeLabel": "hiragana",
+    "romanji": "de"
+  },
+  {
+    "kana": "Q40655",
+    "char": "と",
+    "typeLabel": "hiragana",
+    "romanji": "to"
+  },
+  {
+    "kana": "Q11273649",
+    "char": "ど",
+    "typeLabel": "hiragana",
+    "romanji": "do"
+  },
+  {
+    "kana": "Q40661",
+    "char": "な",
+    "typeLabel": "hiragana",
+    "romanji": "na"
+  },
+  {
+    "kana": "Q40666",
+    "char": "に",
+    "typeLabel": "hiragana",
+    "romanji": "ni"
+  },
+  {
+    "kana": "Q40671",
+    "char": "ぬ",
+    "typeLabel": "hiragana",
+    "romanji": "nu"
+  },
+  {
+    "kana": "Q40681",
+    "char": "ね",
+    "typeLabel": "hiragana",
+    "romanji": "ne"
+  },
+  {
+    "kana": "Q40686",
+    "char": "の",
+    "typeLabel": "hiragana",
+    "romanji": "no"
+  },
+  {
+    "kana": "Q40694",
+    "char": "は",
+    "typeLabel": "hiragana",
+    "romanji": "ha"
+  },
+  {
+    "kana": "Q11083632",
+    "char": "ば",
+    "typeLabel": "hiragana",
+    "romanji": "ba"
+  },
+  {
+    "kana": "Q11276032",
+    "char": "ぱ",
+    "typeLabel": "hiragana",
+    "romanji": "pa"
+  },
+  {
+    "kana": "Q40702",
+    "char": "ひ",
+    "typeLabel": "hiragana",
+    "romanji": "hi"
+  },
+  {
+    "kana": "Q11276793",
+    "char": "び",
+    "typeLabel": "hiragana",
+    "romanji": "bi"
+  },
+  {
+    "kana": "Q11276885",
+    "char": "ぴ",
+    "typeLabel": "hiragana",
+    "romanji": "pi"
+  },
+  {
+    "kana": "Q40709",
+    "char": "ふ",
+    "typeLabel": "hiragana",
+    "romanji": "fu"
+  },
+  {
+    "kana": "Q11277408",
+    "char": "ぶ",
+    "typeLabel": "hiragana",
+    "romanji": "bu"
+  },
+  {
+    "kana": "Q11277506",
+    "char": "ぷ",
+    "typeLabel": "hiragana",
+    "romanji": "pu"
+  },
+  {
+    "kana": "Q40714",
+    "char": "へ",
+    "typeLabel": "hiragana",
+    "romanji": "he"
+  },
+  {
+    "kana": "Q11277626",
+    "char": "べ",
+    "typeLabel": "hiragana",
+    "romanji": "be"
+  },
+  {
+    "kana": "Q11277665",
+    "char": "ぺ",
+    "typeLabel": "hiragana",
+    "romanji": "pe"
+  },
+  {
+    "kana": "Q40725",
+    "char": "ほ",
+    "typeLabel": "hiragana",
+    "romanji": "ho"
+  },
+  {
+    "kana": "Q11277907",
+    "char": "ぼ",
+    "typeLabel": "hiragana",
+    "romanji": "bo"
+  },
+  {
+    "kana": "Q10645787",
+    "char": "ぽ",
+    "typeLabel": "hiragana",
+    "romanji": "po"
+  },
+  {
+    "kana": "Q40736",
+    "char": "ま",
+    "typeLabel": "hiragana",
+    "romanji": "ma"
+  },
+  {
+    "kana": "Q40744",
+    "char": "み",
+    "typeLabel": "hiragana",
+    "romanji": "mi"
+  },
+  {
+    "kana": "Q40749",
+    "char": "む",
+    "typeLabel": "hiragana",
+    "romanji": "mu"
+  },
+  {
+    "kana": "Q40755",
+    "char": "め",
+    "typeLabel": "hiragana",
+    "romanji": "me"
+  },
+  {
+    "kana": "Q40759",
+    "char": "も",
+    "typeLabel": "hiragana",
+    "romanji": "mo"
+  },
+  {
+    "kana": "Q40775",
+    "char": "や",
+    "smallChar": "ゃ",
+    "typeLabel": "hiragana",
+    "romanji": "ya"
+  },
+  {
+    "kana": "Q40778",
+    "char": "ゆ",
+    "smallChar": "ゅ",
+    "typeLabel": "hiragana",
+    "romanji": "yu"
+  },
+  {
+    "kana": "Q40785",
+    "char": "よ",
+    "smallChar": "ょ",
+    "typeLabel": "hiragana",
+    "romanji": "yo"
+  },
+  {
+    "kana": "Q40789",
+    "char": "ら",
+    "typeLabel": "hiragana",
+    "romanji": "ra"
+  },
+  {
+    "kana": "Q40792",
+    "char": "り",
+    "typeLabel": "hiragana",
+    "romanji": "ri"
+  },
+  {
+    "kana": "Q40800",
+    "char": "る",
+    "typeLabel": "hiragana",
+    "romanji": "ru"
+  },
+  {
+    "kana": "Q40803",
+    "char": "れ",
+    "typeLabel": "hiragana",
+    "romanji": "re"
+  },
+  {
+    "kana": "Q40805",
+    "char": "ろ",
+    "typeLabel": "hiragana",
+    "romanji": "ro"
+  },
+  {
+    "kana": "Q40809",
+    "char": "わ",
+    "smallChar": "ゎ",
+    "typeLabel": "hiragana",
+    "romanji": "wa"
+  },
+  {
+    "kana": "Q40812",
+    "char": "を",
+    "smallChar": "𛅒",
+    "typeLabel": "hiragana",
+    "romanji": "wo"
+  },
+  {
+    "kana": "Q40818",
+    "char": "ん",
+    "typeLabel": "hiragana",
+    "romanji": "n"
+  },
+  {
+    "kana": "Q40454",
+    "char": "ア",
+    "smallChar": "ァ",
+    "typeLabel": "katakana",
+    "romanji": "a"
+  },
+  {
+    "kana": "Q40462",
+    "char": "イ",
+    "smallChar": "ィ",
+    "typeLabel": "katakana",
+    "romanji": "i"
+  },
+  {
+    "kana": "Q40472",
+    "char": "ウ",
+    "smallChar": "ゥ",
+    "typeLabel": "katakana",
+    "romanji": "u"
+  },
+  {
+    "kana": "Q40481",
+    "char": "エ",
+    "smallChar": "ェ",
+    "typeLabel": "katakana",
+    "romanji": "e"
+  },
+  {
+    "kana": "Q40488",
+    "char": "オ",
+    "smallChar": "ォ",
+    "typeLabel": "katakana",
+    "romanji": "o"
+  },
+  {
+    "kana": "Q40499",
+    "char": "カ",
+    "smallChar": "ヵ",
+    "typeLabel": "katakana",
+    "romanji": "ka"
+  },
+  {
+    "kana": "Q6151513",
+    "char": "ガ",
+    "typeLabel": "katakana",
+    "romanji": "ga"
+  },
+  {
+    "kana": "Q40548",
+    "char": "キ",
+    "typeLabel": "katakana",
+    "romanji": "ki"
+  },
+  {
+    "kana": "Q10640541",
+    "char": "ギ",
+    "typeLabel": "katakana",
+    "romanji": "gi"
+  },
+  {
+    "kana": "Q40554",
+    "char": "ク",
+    "smallChar": "ㇰ",
+    "typeLabel": "katakana",
+    "romanji": "ku"
+  },
+  {
+    "kana": "Q10640546",
+    "char": "グ",
+    "typeLabel": "katakana",
+    "romanji": "gu"
+  },
+  {
+    "kana": "Q40560",
+    "char": "ケ",
+    "smallChar": "ヶ",
+    "typeLabel": "katakana",
+    "romanji": "ke"
+  },
+  {
+    "kana": "Q10640564",
+    "char": "ゲ",
+    "typeLabel": "katakana",
+    "romanji": "ge"
+  },
+  {
+    "kana": "Q40566",
+    "char": "コ",
+    "typeLabel": "katakana",
+    "romanji": "ko"
+  },
+  {
+    "kana": "Q10640565",
+    "char": "ゴ",
+    "typeLabel": "katakana",
+    "romanji": "go"
+  },
+  {
+    "kana": "Q40575",
+    "char": "サ",
+    "typeLabel": "katakana",
+    "romanji": "sa"
+  },
+  {
+    "kana": "Q10640568",
+    "char": "ザ",
+    "typeLabel": "katakana",
+    "romanji": "za"
+  },
+  {
+    "kana": "Q40582",
+    "char": "シ",
+    "smallChar": "ㇱ",
+    "typeLabel": "katakana",
+    "romanji": "shi"
+  },
+  {
+    "kana": "Q11269342",
+    "char": "ジ",
+    "typeLabel": "katakana",
+    "romanji": "ji"
+  },
+  {
+    "kana": "Q40587",
+    "char": "ス",
+    "smallChar": "ㇲ",
+    "typeLabel": "katakana",
+    "romanji": "su"
+  },
+  {
+    "kana": "Q11269946",
+    "char": "ズ",
+    "typeLabel": "katakana",
+    "romanji": "zu"
+  },
+  {
+    "kana": "Q40593",
+    "char": "セ",
+    "typeLabel": "katakana",
+    "romanji": "se"
+  },
+  {
+    "kana": "Q11270227",
+    "char": "ゼ",
+    "typeLabel": "katakana",
+    "romanji": "ze"
+  },
+  {
+    "kana": "Q40598",
+    "char": "ソ",
+    "typeLabel": "katakana",
+    "romanji": "so"
+  },
+  {
+    "kana": "Q11270698",
+    "char": "ゾ",
+    "typeLabel": "katakana",
+    "romanji": "zo"
+  },
+  {
+    "kana": "Q40624",
+    "char": "タ",
+    "typeLabel": "katakana",
+    "romanji": "ta"
+  },
+  {
+    "kana": "Q11271493",
+    "char": "ダ",
+    "typeLabel": "katakana",
+    "romanji": "da"
+  },
+  {
+    "kana": "Q40636",
+    "char": "チ",
+    "typeLabel": "katakana",
+    "romanji": "chi"
+  },
+  {
+    "kana": "Q11080311",
+    "char": "ヂ",
+    "typeLabel": "katakana",
+    "romanji": "ji"
+  },
+  {
+    "kana": "Q40643",
+    "char": "ツ",
+    "smallChar": "ッ",
+    "typeLabel": "katakana",
+    "romanji": "tsu"
+  },
+  {
+    "kana": "Q11089303",
+    "char": "ヅ",
+    "typeLabel": "katakana",
+    "romanji": "zu"
+  },
+  {
+    "kana": "Q40648",
+    "char": "テ",
+    "typeLabel": "katakana",
+    "romanji": "te"
+  },
+  {
+    "kana": "Q6151530",
+    "char": "デ",
+    "typeLabel": "katakana",
+    "romanji": "de"
+  },
+  {
+    "kana": "Q40655",
+    "char": "ト",
+    "smallChar": "ㇳ",
+    "typeLabel": "katakana",
+    "romanji": "to"
+  },
+  {
+    "kana": "Q11273649",
+    "char": "ド",
+    "typeLabel": "katakana",
+    "romanji": "do"
+  },
+  {
+    "kana": "Q40661",
+    "char": "ナ",
+    "typeLabel": "katakana",
+    "romanji": "na"
+  },
+  {
+    "kana": "Q40666",
+    "char": "ニ",
+    "typeLabel": "katakana",
+    "romanji": "ni"
+  },
+  {
+    "kana": "Q40671",
+    "char": "ヌ",
+    "smallChar": "ㇴ",
+    "typeLabel": "katakana",
+    "romanji": "nu"
+  },
+  {
+    "kana": "Q40681",
+    "char": "ネ",
+    "typeLabel": "katakana",
+    "romanji": "ne"
+  },
+  {
+    "kana": "Q40686",
+    "char": "ノ",
+    "typeLabel": "katakana",
+    "romanji": "no"
+  },
+  {
+    "kana": "Q40694",
+    "char": "ハ",
+    "smallChar": "ㇵ",
+    "typeLabel": "katakana",
+    "romanji": "ha"
+  },
+  {
+    "kana": "Q11083632",
+    "char": "バ",
+    "typeLabel": "katakana",
+    "romanji": "ba"
+  },
+  {
+    "kana": "Q11276032",
+    "char": "パ",
+    "typeLabel": "katakana",
+    "romanji": "pa"
+  },
+  {
+    "kana": "Q40702",
+    "char": "ヒ",
+    "smallChar": "ㇶ",
+    "typeLabel": "katakana",
+    "romanji": "hi"
+  },
+  {
+    "kana": "Q11276793",
+    "char": "ビ",
+    "typeLabel": "katakana",
+    "romanji": "bi"
+  },
+  {
+    "kana": "Q11276885",
+    "char": "ピ",
+    "typeLabel": "katakana",
+    "romanji": "pi"
+  },
+  {
+    "kana": "Q40709",
+    "char": "フ",
+    "typeLabel": "katakana",
+    "romanji": "fu"
+  },
+  {
+    "kana": "Q11277408",
+    "char": "ブ",
+    "typeLabel": "katakana",
+    "romanji": "bu"
+  },
+  {
+    "kana": "Q11277506",
+    "char": "プ",
+    "smallChar": "ㇷ゚",
+    "typeLabel": "katakana",
+    "romanji": "pu"
+  },
+  {
+    "kana": "Q40714",
+    "char": "ヘ",
+    "smallChar": "ㇸ",
+    "typeLabel": "katakana",
+    "romanji": "he"
+  },
+  {
+    "kana": "Q11277626",
+    "char": "ベ",
+    "typeLabel": "katakana",
+    "romanji": "be"
+  },
+  {
+    "kana": "Q11277665",
+    "char": "ペ",
+    "typeLabel": "katakana",
+    "romanji": "pe"
+  },
+  {
+    "kana": "Q40725",
+    "char": "ホ",
+    "smallChar": "ㇹ",
+    "typeLabel": "katakana",
+    "romanji": "ho"
+  },
+  {
+    "kana": "Q11277907",
+    "char": "ボ",
+    "typeLabel": "katakana",
+    "romanji": "bo"
+  },
+  {
+    "kana": "Q10645787",
+    "char": "ポ",
+    "typeLabel": "katakana",
+    "romanji": "po"
+  },
+  {
+    "kana": "Q40736",
+    "char": "マ",
+    "typeLabel": "katakana",
+    "romanji": "ma"
+  },
+  {
+    "kana": "Q40744",
+    "char": "ミ",
+    "typeLabel": "katakana",
+    "romanji": "mi"
+  },
+  {
+    "kana": "Q40749",
+    "char": "ム",
+    "smallChar": "ㇺ",
+    "typeLabel": "katakana",
+    "romanji": "mu"
+  },
+  {
+    "kana": "Q40755",
+    "char": "メ",
+    "typeLabel": "katakana",
+    "romanji": "me"
+  },
+  {
+    "kana": "Q40759",
+    "char": "モ",
+    "typeLabel": "katakana",
+    "romanji": "mo"
+  },
+  {
+    "kana": "Q40775",
+    "char": "ヤ",
+    "smallChar": "ャ",
+    "typeLabel": "katakana",
+    "romanji": "ya"
+  },
+  {
+    "kana": "Q40778",
+    "char": "ユ",
+    "smallChar": "ュ",
+    "typeLabel": "katakana",
+    "romanji": "yu"
+  },
+  {
+    "kana": "Q40785",
+    "char": "ヨ",
+    "smallChar": "ョ",
+    "typeLabel": "katakana",
+    "romanji": "yo"
+  },
+  {
+    "kana": "Q40789",
+    "char": "ラ",
+    "smallChar": "ㇻ",
+    "typeLabel": "katakana",
+    "romanji": "ra"
+  },
+  {
+    "kana": "Q40792",
+    "char": "リ",
+    "smallChar": "ㇼ",
+    "typeLabel": "katakana",
+    "romanji": "ri"
+  },
+  {
+    "kana": "Q40800",
+    "char": "ル",
+    "smallChar": "ㇽ",
+    "typeLabel": "katakana",
+    "romanji": "ru"
+  },
+  {
+    "kana": "Q40803",
+    "char": "レ",
+    "smallChar": "ㇾ",
+    "typeLabel": "katakana",
+    "romanji": "re"
+  },
+  {
+    "kana": "Q40805",
+    "char": "ロ",
+    "smallChar": "ㇿ",
+    "typeLabel": "katakana",
+    "romanji": "ro"
+  },
+  {
+    "kana": "Q40809",
+    "char": "ワ",
+    "smallChar": "ヮ",
+    "typeLabel": "katakana",
+    "romanji": "wa"
+  },
+  {
+    "kana": "Q40812",
+    "char": "ヲ",
+    "smallChar": "𛅦",
+    "typeLabel": "katakana",
+    "romanji": "wo"
+  },
+  {
+    "kana": "Q40818",
+    "char": "ン",
+    "typeLabel": "katakana",
+    "romanji": "n"
+  },
+  {
+    "char": "きゃ",
+    "typeLabel": "hiragana",
+    "romanji": "kya",
+    "isYoon": true,
+    "base": "Q40548",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "きゅ",
+    "typeLabel": "hiragana",
+    "romanji": "kyu",
+    "isYoon": true,
+    "base": "Q40548",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "きょ",
+    "typeLabel": "hiragana",
+    "romanji": "kyo",
+    "isYoon": true,
+    "base": "Q40548",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ぎゃ",
+    "typeLabel": "hiragana",
+    "romanji": "gya",
+    "isYoon": true,
+    "base": "Q10640541",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ぎゅ",
+    "typeLabel": "hiragana",
+    "romanji": "gyu",
+    "isYoon": true,
+    "base": "Q10640541",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ぎょ",
+    "typeLabel": "hiragana",
+    "romanji": "gyo",
+    "isYoon": true,
+    "base": "Q10640541",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "しゃ",
+    "typeLabel": "hiragana",
+    "romanji": "sha",
+    "isYoon": true,
+    "base": "Q40582",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "しゅ",
+    "typeLabel": "hiragana",
+    "romanji": "shu",
+    "isYoon": true,
+    "base": "Q40582",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "しょ",
+    "typeLabel": "hiragana",
+    "romanji": "sho",
+    "isYoon": true,
+    "base": "Q40582",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "じゃ",
+    "typeLabel": "hiragana",
+    "romanji": "ja",
+    "isYoon": true,
+    "base": "Q11269342",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "じゅ",
+    "typeLabel": "hiragana",
+    "romanji": "ju",
+    "isYoon": true,
+    "base": "Q11269342",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "じょ",
+    "typeLabel": "hiragana",
+    "romanji": "jo",
+    "isYoon": true,
+    "base": "Q11269342",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ちゃ",
+    "typeLabel": "hiragana",
+    "romanji": "cha",
+    "isYoon": true,
+    "base": "Q40636",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ちゅ",
+    "typeLabel": "hiragana",
+    "romanji": "chu",
+    "isYoon": true,
+    "base": "Q40636",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ちょ",
+    "typeLabel": "hiragana",
+    "romanji": "cho",
+    "isYoon": true,
+    "base": "Q40636",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ぢゃ",
+    "typeLabel": "hiragana",
+    "romanji": "ja",
+    "isYoon": true,
+    "base": "Q11080311",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ぢゅ",
+    "typeLabel": "hiragana",
+    "romanji": "ju",
+    "isYoon": true,
+    "base": "Q11080311",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ぢょ",
+    "typeLabel": "hiragana",
+    "romanji": "jo",
+    "isYoon": true,
+    "base": "Q11080311",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "にゃ",
+    "typeLabel": "hiragana",
+    "romanji": "nya",
+    "isYoon": true,
+    "base": "Q40666",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "にゅ",
+    "typeLabel": "hiragana",
+    "romanji": "nyu",
+    "isYoon": true,
+    "base": "Q40666",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "にょ",
+    "typeLabel": "hiragana",
+    "romanji": "nyo",
+    "isYoon": true,
+    "base": "Q40666",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ひゃ",
+    "typeLabel": "hiragana",
+    "romanji": "hya",
+    "isYoon": true,
+    "base": "Q40702",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ひゅ",
+    "typeLabel": "hiragana",
+    "romanji": "hyu",
+    "isYoon": true,
+    "base": "Q40702",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ひょ",
+    "typeLabel": "hiragana",
+    "romanji": "hyo",
+    "isYoon": true,
+    "base": "Q40702",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "びゃ",
+    "typeLabel": "hiragana",
+    "romanji": "bya",
+    "isYoon": true,
+    "base": "Q11276793",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "びゅ",
+    "typeLabel": "hiragana",
+    "romanji": "byu",
+    "isYoon": true,
+    "base": "Q11276793",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "びょ",
+    "typeLabel": "hiragana",
+    "romanji": "byo",
+    "isYoon": true,
+    "base": "Q11276793",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ぴゃ",
+    "typeLabel": "hiragana",
+    "romanji": "pya",
+    "isYoon": true,
+    "base": "Q11276885",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ぴゅ",
+    "typeLabel": "hiragana",
+    "romanji": "pyu",
+    "isYoon": true,
+    "base": "Q11276885",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ぴょ",
+    "typeLabel": "hiragana",
+    "romanji": "pyo",
+    "isYoon": true,
+    "base": "Q11276885",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "みゃ",
+    "typeLabel": "hiragana",
+    "romanji": "mya",
+    "isYoon": true,
+    "base": "Q40744",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "みゅ",
+    "typeLabel": "hiragana",
+    "romanji": "myu",
+    "isYoon": true,
+    "base": "Q40744",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "みょ",
+    "typeLabel": "hiragana",
+    "romanji": "myo",
+    "isYoon": true,
+    "base": "Q40744",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "りゃ",
+    "typeLabel": "hiragana",
+    "romanji": "rya",
+    "isYoon": true,
+    "base": "Q40792",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "りゅ",
+    "typeLabel": "hiragana",
+    "romanji": "ryu",
+    "isYoon": true,
+    "base": "Q40792",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "りょ",
+    "typeLabel": "hiragana",
+    "romanji": "ryo",
+    "isYoon": true,
+    "base": "Q40792",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "キャ",
+    "typeLabel": "katakana",
+    "romanji": "kya",
+    "isYoon": true,
+    "base": "Q40548",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "キュ",
+    "typeLabel": "katakana",
+    "romanji": "kyu",
+    "isYoon": true,
+    "base": "Q40548",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "キョ",
+    "typeLabel": "katakana",
+    "romanji": "kyo",
+    "isYoon": true,
+    "base": "Q40548",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ギャ",
+    "typeLabel": "katakana",
+    "romanji": "gya",
+    "isYoon": true,
+    "base": "Q10640541",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ギュ",
+    "typeLabel": "katakana",
+    "romanji": "gyu",
+    "isYoon": true,
+    "base": "Q10640541",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ギョ",
+    "typeLabel": "katakana",
+    "romanji": "gyo",
+    "isYoon": true,
+    "base": "Q10640541",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "シャ",
+    "typeLabel": "katakana",
+    "romanji": "sha",
+    "isYoon": true,
+    "base": "Q40582",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "シュ",
+    "typeLabel": "katakana",
+    "romanji": "shu",
+    "isYoon": true,
+    "base": "Q40582",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ショ",
+    "typeLabel": "katakana",
+    "romanji": "sho",
+    "isYoon": true,
+    "base": "Q40582",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ジャ",
+    "typeLabel": "katakana",
+    "romanji": "ja",
+    "isYoon": true,
+    "base": "Q11269342",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ジュ",
+    "typeLabel": "katakana",
+    "romanji": "ju",
+    "isYoon": true,
+    "base": "Q11269342",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ジョ",
+    "typeLabel": "katakana",
+    "romanji": "jo",
+    "isYoon": true,
+    "base": "Q11269342",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "チャ",
+    "typeLabel": "katakana",
+    "romanji": "cha",
+    "isYoon": true,
+    "base": "Q40636",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "チュ",
+    "typeLabel": "katakana",
+    "romanji": "chu",
+    "isYoon": true,
+    "base": "Q40636",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "チョ",
+    "typeLabel": "katakana",
+    "romanji": "cho",
+    "isYoon": true,
+    "base": "Q40636",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ヂャ",
+    "typeLabel": "katakana",
+    "romanji": "ja",
+    "isYoon": true,
+    "base": "Q11080311",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ヂュ",
+    "typeLabel": "katakana",
+    "romanji": "ju",
+    "isYoon": true,
+    "base": "Q11080311",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ヂョ",
+    "typeLabel": "katakana",
+    "romanji": "jo",
+    "isYoon": true,
+    "base": "Q11080311",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ニャ",
+    "typeLabel": "katakana",
+    "romanji": "nya",
+    "isYoon": true,
+    "base": "Q40666",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ニュ",
+    "typeLabel": "katakana",
+    "romanji": "nyu",
+    "isYoon": true,
+    "base": "Q40666",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ニョ",
+    "typeLabel": "katakana",
+    "romanji": "nyo",
+    "isYoon": true,
+    "base": "Q40666",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ヒャ",
+    "typeLabel": "katakana",
+    "romanji": "hya",
+    "isYoon": true,
+    "base": "Q40702",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ヒュ",
+    "typeLabel": "katakana",
+    "romanji": "hyu",
+    "isYoon": true,
+    "base": "Q40702",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ヒョ",
+    "typeLabel": "katakana",
+    "romanji": "hyo",
+    "isYoon": true,
+    "base": "Q40702",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ビャ",
+    "typeLabel": "katakana",
+    "romanji": "bya",
+    "isYoon": true,
+    "base": "Q11276793",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ビュ",
+    "typeLabel": "katakana",
+    "romanji": "byu",
+    "isYoon": true,
+    "base": "Q11276793",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ビョ",
+    "typeLabel": "katakana",
+    "romanji": "byo",
+    "isYoon": true,
+    "base": "Q11276793",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ピャ",
+    "typeLabel": "katakana",
+    "romanji": "pya",
+    "isYoon": true,
+    "base": "Q11276885",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ピュ",
+    "typeLabel": "katakana",
+    "romanji": "pyu",
+    "isYoon": true,
+    "base": "Q11276885",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ピョ",
+    "typeLabel": "katakana",
+    "romanji": "pyo",
+    "isYoon": true,
+    "base": "Q11276885",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "ミャ",
+    "typeLabel": "katakana",
+    "romanji": "mya",
+    "isYoon": true,
+    "base": "Q40744",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "ミュ",
+    "typeLabel": "katakana",
+    "romanji": "myu",
+    "isYoon": true,
+    "base": "Q40744",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "ミョ",
+    "typeLabel": "katakana",
+    "romanji": "myo",
+    "isYoon": true,
+    "base": "Q40744",
+    "combinator": "Q40785"
+  },
+  {
+    "char": "リャ",
+    "typeLabel": "katakana",
+    "romanji": "rya",
+    "isYoon": true,
+    "base": "Q40792",
+    "combinator": "Q40775"
+  },
+  {
+    "char": "リュ",
+    "typeLabel": "katakana",
+    "romanji": "ryu",
+    "isYoon": true,
+    "base": "Q40792",
+    "combinator": "Q40778"
+  },
+  {
+    "char": "リョ",
+    "typeLabel": "katakana",
+    "romanji": "ryo",
+    "isYoon": true,
+    "base": "Q40792",
+    "combinator": "Q40785"
+  }
+]

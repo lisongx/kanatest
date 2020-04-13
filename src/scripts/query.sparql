@@ -1,26 +1,43 @@
-SELECT ?item ?itemLabel ?char ?romanji
+SELECT ?kana ?char ?smallChar ?typeLabel ?romanji ?specialRomanjiCase
 WHERE
 {
-    # part　of kana
-    ?item wdt:P361 wd:Q240357.
+  # partof kana
+  ?kana wdt:P361 wd:Q240357.
 
-    # get both unicode for hiragana and katakana
-    ?item p:P487 ?unicode_statement.
-    ?unicode_statement ps:P487 ?char.
+  # get both unicode for hiragana and katakana
+  ?kana p:P487 ?unicode_statement.
+  ?unicode_statement ps:P487 ?char.
 
-    {
-      # either is hiragana
-      ?unicode_statement pq:P518  wd:Q48332
-    } UNION {
-      # or katakana
-      #  (but filterout unicode in range beyound 43200, char like ㋨)
-      ?unicode_statement pq:P518 wd:Q82946.
-      ?unicode_statement pq:P4213 ?hex.
-       FILTER(SUBSTR(?hex, 0, 3)  = "30").
-    }
+  {
+    # either is hiragana
+    ?unicode_statement pq:P518  wd:Q48332
+  } UNION {
+    # or katakana
+    #  (but filterout unicode in range beyound 43200, char like ㋨)
+    ?unicode_statement pq:P518 wd:Q82946.
+    ?unicode_statement pq:P4213 ?hex.
+      FILTER(SUBSTR(?hex, 0, 3)  = "30").
+  }
 
-    ?item wdt:P2125 ?romanji.
+  ?unicode_statement pq:P518 ?type.
 
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?kana p:P2125 ?romanji_statement.
+  ?romanji_statement ps:P2125 ?romanji.
+
+  OPTIONAL {
+       ?romanji_statement pq:P518 ?specialRomanjiCase.
+  }
+
+  OPTIONAL {
+    ?smallKana wdt:P31 wd:Q2498345;
+                      wdt:P144 ?kana.
+
+    ?smallKana p:P487 ?smallUnicodeStatement.
+    ?smallUnicodeStatement ps:P487 ?smallChar.
+    ?smallUnicodeStatement pq:P518 ?type.
+  }
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
+
 ORDER BY ASC(?char)

@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "fetch-kana": "node src/scripts/fetchKanaData.mjs"
+    "build-kana": "node src/scripts/buildKanaData.mjs"
   },
   "eslintConfig": {
     "extends": "react-app"

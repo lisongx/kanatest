@@ -2,17 +2,19 @@ import React from "react";
 import "./App.scss";
 import 'tachyons/css/tachyons.css'
 
-import Kana from './components/Kana';
+import sample from 'lodash/sampleSize'
+
+import KanaTable from './components/KanaTable';
 
 import kanaData from './kana.json';
 
 function App() {
-  const randomKana = kanaData[Math.floor(Math.random() * kanaData.length)];
+  const kanaList = sample(kanaData, 20);
 
   return (
     <div className="App">
       <header className="App-header">
-        <Kana char={randomKana.char} />
+        <KanaTable items={kanaList} />
       </header>
     </div>
   );

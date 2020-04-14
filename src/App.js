@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import 'tachyons/css/tachyons.css'
 
 import Kana from './components/Kana';
 

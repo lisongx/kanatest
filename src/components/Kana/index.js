@@ -1,9 +1,14 @@
 import React from 'react';
 
+export default class Kana extends React.PureComponent {
 
-export default class Kana extends React.PureComponent{
+    render() {
+        const { char } = this.props;
 
-
+        return <div class="kana-item">
+            {char}
+        </div>
+    }
 }
 
 

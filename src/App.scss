@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #B07736;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,4 +26,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+$color: #373C38;
+
+.kana-item {
+  color: $color;
+  display: inline-block;
+  font-family: 'Kosugi Maru', Arial, sans-serif;
+  border: 3px solid $color;
+  font-size: 200px;
+  padding: 10px 20px;
+  user-select: none;
+  transition: color 200ms;
 }

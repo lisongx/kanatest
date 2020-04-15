@@ -22,7 +22,7 @@ export default class Kana extends React.PureComponent {
             colorClass = "red"
         }
 
-        return <div class={classNames(
+        return <div className={classNames(
             "kana-item",
             "f-headline",
             colorClass

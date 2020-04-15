@@ -14,8 +14,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <KanaTable items={kanaList} />
+        <h1>untitled</h1>
       </header>
+
+      <KanaTable items={kanaList} />
     </div>
   );
 }

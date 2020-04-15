@@ -1,3 +1,7 @@
+body {
+  background-color: #B07736;
+}
+
 .App {
   text-align: center;
 }
@@ -14,8 +18,7 @@
 }
 
 .App-header {
-  background-color: #B07736;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,13 +31,9 @@
   color: #61dafb;
 }
 
-$color: #373C38;
-
 .kana-item {
-  color: $color;
   display: inline-block;
   font-family: 'Kosugi Maru', Arial, sans-serif;
-  border: 3px solid $color;
   padding: 10px 20px;
   user-select: none;
   transition: color 200ms;

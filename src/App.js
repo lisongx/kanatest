@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import 'tachyons/css/tachyons.css'
 
-import sample from 'lodash/sampleSize'
+import sample   from 'lodash/sampleSize'
 
 import KanaTable from './components/KanaTable';
 

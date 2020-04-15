@@ -19,12 +19,12 @@ export default class Kana extends React.PureComponent {
         } else if (answerResult === true) {
             colorClass = "green"
         } else if (answerResult === false) {
-            colorClass = "red"
+            colorClass = "dark-red"
         }
 
         return <div className={classNames(
             "kana-item",
-            "f-headline",
+            "f-subheadline",
             colorClass
         )}>
             {char}

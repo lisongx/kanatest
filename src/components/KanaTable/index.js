@@ -4,7 +4,7 @@ import Kana from '../Kana';
 
 export default ({items, currentIndex, results}) => {
     return (
-      <section className="flex flex-wrap pa5">
+      <section className="flex flex-wrap pa1">
         {items.map((kana, index) =>
             <Kana
                 key={index}

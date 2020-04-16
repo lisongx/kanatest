@@ -59,11 +59,8 @@ export default class KanaTest extends React.Component {
                     className={"shadow-3 pv2 ph2 f2 dark-gray b--light-pink"}
                     value={this.state.inputValue} onChange={this.handleChange}
                 />
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" /> Press enter to submit
             </form>
         </>
     }
 }
-
-
-

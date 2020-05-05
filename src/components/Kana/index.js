@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from "classnames"
+
 export default class Kana extends React.PureComponent {
     static defaultProps = {
         isCurrent: false,
@@ -8,6 +9,7 @@ export default class Kana extends React.PureComponent {
     render() {
         const { char, isCurrent, answerResult } = this.props;
         let colorClass = "dark-gray";
+
         if (isCurrent) {
             colorClass = "light-blue";
         } else if (answerResult === true) {
@@ -15,6 +17,7 @@ export default class Kana extends React.PureComponent {
         } else if (answerResult === false) {
             colorClass = "dark-red"
         }
+
         return <div className={classNames(
             "f1",
             "kana-item",

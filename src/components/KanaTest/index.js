@@ -104,20 +104,20 @@ export default class KanaTest extends React.Component {
 
         return (<div className="mw8 center ph3-ns" >
             <div className="ph2-ns">
-                <div className="w-100 pa2 bg-white">
+                <section className="w-100 pa2">
                     <div className="db-ns flex-ns">
-                        <div className="w-100 w-60-m h5 tc mr3 f-headline outline flex justify-center flex-column">
+                        <div id="current-kana" className="bg-white w-100 w-60-m h5 tc mr3 f-headline outline flex justify-center flex-column">
                             {currentKana && currentKana.char}
                         </div>
-                        <div className="w-100 w-40-m h5 tc f-subheadline outline flex justify-center flex-column">
+                        <div className="bg-white w-100 w-40-m h5 tc f-subheadline outline flex justify-center flex-column">
                             {nextKana && nextKana.char}
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="w-100 pa2 bg-white">
+                <section className="w-100 pa2">
                     <div className="db-ns flex-ns items-center">
-                        <div className="w-100 w-60-m tc f-headlin ">
+                        <div className="w-100 w-100-m tc f-headlin ">
                             <form onSubmit={this.handleSubmit}>
                                 <input
                                     type="text"
@@ -129,16 +129,16 @@ export default class KanaTest extends React.Component {
                                 {/* <input type="submit" value="Submit" /> */}
                             </form>
                         </div>
-                        <div className="w-100 w-20-m tc f2">
+                        <div className="w-50 w-100-m tc f2">
                             {secondsToDisplayTime(timeLeft)}
                         </div>
-                        <button className="w-100 w-20-m tc f2" onClick={this.restartTest}>
+                        <button className="w-50 w-100-m tc f2" onClick={this.restartTest}>
                             Restart?
                         </button>
                     </div>
-                </div>
+                </section>
 
-                <section id="test-result" className="w-100 pa2 bg-white">
+                <section id="test-result" className="w-100 pa2">
                     <KanaTable items={this.items} currentIndex={finished ? this.items.length : currentIndex} results={results} />
                 </section>
             </div>

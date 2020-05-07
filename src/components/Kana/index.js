@@ -27,7 +27,7 @@ export default class Kana extends React.PureComponent {
             "tc",
             colorClass
         )}>
-            {char}<span className="f4">({romanji})</span>
+            {char}<span className="f3">{romanji}</span>
         </div>
     }
 }

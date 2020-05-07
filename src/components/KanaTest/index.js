@@ -10,6 +10,12 @@ const getKanaList = () => {
 
 const TEST_TIME_OUT = 60;
 
+const secondsToDisplayTime = (seconds) => {
+    const date = new Date(null);
+    date.setSeconds(seconds); // specify value for SECONDS here
+    return date.toISOString().substr(14, 5);
+}
+
 export default class KanaTest extends React.Component {
 
     constructor(props) {
@@ -114,7 +120,7 @@ export default class KanaTest extends React.Component {
                             </form>
                         </div>
                         <div className="w-100 w-20-m tc f2">
-                            00:{timeLeft}
+                            {secondsToDisplayTime(timeLeft)}
                         </div>
                         <div className="w-100 w-20-m tc f2" onClick={this.restartTest}>
                             Restart?

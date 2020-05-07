@@ -67,10 +67,10 @@ export default class KanaTest extends React.Component {
     countDown() {
         const timeLeft = this.state.timeLeft - 1;
 
-        if (timeLeft === 0) {
+        if (timeLeft <= 0) {
             clearInterval(this.timer);
             this.setState({
-                timeLeft,
+                timeLeft: 0,
                 finished: true
             })
         } else {
@@ -86,7 +86,7 @@ export default class KanaTest extends React.Component {
         const answerResult = this.testInputForItem(inputValue, this.items[currentIndex]);
         const finished = currentIndex + 1 >= this.items.length;
 
-        this.setState({
+        const updpated = {
             finished,
             currentIndex: finished ? 0 : currentIndex + 1,
             results: [
@@ -94,7 +94,13 @@ export default class KanaTest extends React.Component {
                 answerResult
             ],
             inputValue: ""
-        })
+        }
+
+        if (finished) {
+            updpated.timeLeft = 0
+        }
+
+        this.setState(updpated)
     }
 
     render() {

@@ -7,14 +7,14 @@ export default class Kana extends React.PureComponent {
         answerResult: null,
     }
     render() {
-        const { char, isCurrent, answerResult } = this.props;
+        const { char, isCurrent, answerResult, romanji } = this.props;
         let colorClass = "dark-gray";
 
         if (isCurrent) {
             colorClass = "light-blue";
         } else if (answerResult === true) {
             colorClass = "green"
-        } else if (answerResult === false) {
+        } else {
             colorClass = "dark-red"
         }
 
@@ -27,7 +27,7 @@ export default class Kana extends React.PureComponent {
             "tc",
             colorClass
         )}>
-            {char}
+            {char}<span className="f4">({romanji})</span>
         </div>
     }
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap');
 
 body {
-  background-color: #B07736;
+  background-color: #b07736;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -12,6 +12,10 @@ body {
   padding: 10px 20px;
   user-select: none;
   transition: color 200ms;
+}
+
+#test-result {
+  min-height: 5rem;
 }
 
 // focus window idea - to do

@@ -3,16 +3,18 @@ import React from 'react';
 import sample from 'lodash/sampleSize'
 
 import kanaData from '../../kana.json';
+import KanaTable from '../KanaTable';
 
 const getKanaList = () => {
     return sample(kanaData, 15);
 };
 
-const TEST_TIME_OUT = 60;
+const TEST_TIME_OUT = 90;
 
+// Convert the number of seconds clock display f(90) => "01:30"
 const secondsToDisplayTime = (seconds) => {
     const date = new Date(null);
-    date.setSeconds(seconds); // specify value for SECONDS here
+    date.setSeconds(seconds);
     return date.toISOString().substr(14, 5);
 }
 
@@ -26,6 +28,7 @@ export default class KanaTest extends React.Component {
             timeLeft: TEST_TIME_OUT,
             currentIndex: 0,
             results: [],
+            finished: false,
             inputValue: "",
         };
     }
@@ -35,7 +38,7 @@ export default class KanaTest extends React.Component {
     }
 
     testInputForItem = (value, item) => {
-        return item.romanji === value;
+        return item.romanji === (value && value.toLowerCase());
     }
 
     handleChange = (event) => {
@@ -48,6 +51,7 @@ export default class KanaTest extends React.Component {
             currentIndex: 0,
             timeLeft: TEST_TIME_OUT,
             results: [],
+            finished: false,
             inputValue: "",
         }, () => {
             this.startTimer()
@@ -62,11 +66,15 @@ export default class KanaTest extends React.Component {
 
     countDown() {
         const timeLeft = this.state.timeLeft - 1;
-        this.setState({ timeLeft })
 
         if (timeLeft === 0) {
-            alert("finished!");
             clearInterval(this.timer);
+            this.setState({
+                timeLeft,
+                finished: true
+            })
+        } else {
+            this.setState({ timeLeft })
         }
     }
 
@@ -76,9 +84,11 @@ export default class KanaTest extends React.Component {
         const { currentIndex, results, inputValue } = this.state;
 
         const answerResult = this.testInputForItem(inputValue, this.items[currentIndex]);
+        const finished = currentIndex + 1 >= this.items.length;
 
         this.setState({
-            currentIndex: currentIndex + 1,
+            finished,
+            currentIndex: finished ? 0 : currentIndex + 1,
             results: [
                 ...results,
                 answerResult
@@ -88,10 +98,9 @@ export default class KanaTest extends React.Component {
     }
 
     render() {
-        const { currentIndex, results, timeLeft } = this.state;
+        const { currentIndex, results, timeLeft, finished } = this.state;
         const currentKana = this.items[currentIndex];
         const nextKana = this.items[currentIndex + 1];
-
 
         return (<div className="mw8 center ph3-ns" >
             <div className="ph2-ns">
@@ -112,7 +121,8 @@ export default class KanaTest extends React.Component {
                             <form onSubmit={this.handleSubmit}>
                                 <input
                                     type="text"
-                                    placeholder="Type here"
+                                    disabled={finished}
+                                    placeholder={finished ? "Time's up!" : "Type here"}
                                     className={"shadow-3 pv2 ph2 f2 dark-gray b--light-pink"}
                                     value={this.state.inputValue} onChange={this.handleChange}
                                 />
@@ -122,11 +132,15 @@ export default class KanaTest extends React.Component {
                         <div className="w-100 w-20-m tc f2">
                             {secondsToDisplayTime(timeLeft)}
                         </div>
-                        <div className="w-100 w-20-m tc f2" onClick={this.restartTest}>
+                        <button className="w-100 w-20-m tc f2" onClick={this.restartTest}>
                             Restart?
-                        </div>
+                        </button>
                     </div>
                 </div>
+
+                <section id="test-result" className="w-100 pa2 bg-white">
+                    <KanaTable items={this.items} currentIndex={finished ? this.items.length : currentIndex} results={results} />
+                </section>
             </div>
         </div >)
     }

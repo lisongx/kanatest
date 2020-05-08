@@ -9,8 +9,8 @@ function Header() {
         <div className="db dtc-ns v-mid tl w-50 pa2">
             <a href="/" className="dib f5 f4-ns fw6 mt0 mb1 link black-70" title="Home">
                 KANA-GAKU
-            <div className="dib">
-                    <small className="nowrap f6 mt2 mt3-ns pr2 black-70 fw2">&nbsp;v0.01</small>
+                <div className="dib">
+                    <small className="ml2 nowrap f6 mt2 mt3-ns pr2 black-70 fw2">BETA &nbsp;v0.01</small>
                 </div>
             </a>
         </div>
